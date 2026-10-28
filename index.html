@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Idol Ops</title>
+<meta name="description" content="Idol Ops is an internal content operations tool for managing and publishing video to the TikTok accounts our agency owns and operates.">
+<style>
+  :root{
+    --bg:#140a26; --card:#1c1033; --fg:#f4eefc; --muted:#b9a8d6;
+    --line:#2e2147; --accent:#ff2e7e; --accent2:#8a3bd1;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:
+      radial-gradient(1200px 600px at 20% -10%, rgba(138,59,209,.35), transparent 60%),
+      radial-gradient(900px 500px at 100% 0%, rgba(255,46,126,.25), transparent 55%),
+      var(--bg);
+    color:var(--fg);font:16px/1.65 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;min-height:100vh}
+  .wrap{max-width:860px;margin:0 auto;padding:40px 22px 70px}
+  header{display:flex;align-items:center;gap:14px;margin-bottom:54px}
+  .logo{width:46px;height:46px;border-radius:12px;background:linear-gradient(135deg,#2a0f4e,#6d1a9c 55%,#ff2e7e);
+    display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;font-size:18px;letter-spacing:.5px}
+  .brand{font-weight:700;font-size:18px}
+  h1{font-size:40px;line-height:1.15;margin:0 0 16px;letter-spacing:-.5px}
+  h1 span{background:linear-gradient(90deg,#ffd36b,#ff6a3d);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .lead{font-size:19px;color:var(--muted);max-width:620px;margin:0 0 40px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 44px}
+  @media(max-width:620px){.grid{grid-template-columns:1fr}h1{font-size:30px}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+  .card h3{margin:0 0 8px;font-size:16px}
+  .card p{margin:0;color:var(--muted);font-size:15px}
+  .foot{border-top:1px solid var(--line);padding-top:24px;color:var(--muted);font-size:14px;display:flex;gap:22px;flex-wrap:wrap;align-items:center}
+  .foot a{color:#e8d9ff;text-decoration:none}
+  .foot a:hover{text-decoration:underline}
+  .pill{display:inline-block;padding:6px 12px;border:1px solid var(--line);border-radius:999px;color:var(--muted);font-size:13px;margin-bottom:22px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">IO</div>
+    <div class="brand">Idol Ops</div>
+  </header>
+
+  <span class="pill">Internal content operations platform</span>
+  <h1>Manage and publish video for the TikTok accounts <span>we own and operate</span>.</h1>
+  <p class="lead">Idol Ops is the internal tool our agency uses to organize an approved content library, schedule posts, and publish videos to the TikTok accounts we operate on behalf of the creators we represent.</p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Content library</h3>
+      <p>Keep an organized, rights-cleared library of video content ready to publish.</p>
+    </div>
+    <div class="card">
+      <h3>Scheduling</h3>
+      <p>Plan and schedule posts across the channels our team operates.</p>
+    </div>
+    <div class="card">
+      <h3>Direct publishing</h3>
+      <p>Publish videos to our own TikTok accounts through the official Content Posting API.</p>
+    </div>
+    <div class="card">
+      <h3>Accountability</h3>
+      <p>Role-based access for our staff, with an internal audit log of every action.</p>
+    </div>
+  </div>
+
+  <p class="lead" style="font-size:16px">This application is for our organization's internal use only. It publishes content we own or are licensed to use, and is not offered to the general public.</p>
+
+  <div class="foot">
+    <span>© 2026 [Your Company Name]</span>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="mailto:[your-contact-email]">Contact</a>
+  </div>
+</div>
+</body>
+</html>
